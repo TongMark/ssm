@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>Id</td>
+        <td>类型</td>
+        <td>年龄</td>
+        <td>金额</td>
+    </tr>
+<#list result.data as girl>
+    <tr>
+        <td>${girl.id}</td>
+        <td>${girl.cupSize}</td>
+        <td>${girl.age}</td>
+        <td>${girl.money}</td>
+    </tr>
+</#list>
+</table>
+
+</body>
+</html>
